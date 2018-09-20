@@ -60,7 +60,6 @@ public class Robot extends TimedRobot {
         rightStick = new Joystick(1); //USB port 1
         motor1.setInverted(true);
 	}
-
 	
 	/*
 	 * This autonomous (along with the chooser code above) shows how to select
@@ -89,7 +88,7 @@ public class Robot extends TimedRobot {
 			m_autonomousCommand.start();
 		}
 	}
-
+	
 	/*
 	 * This function is called periodically during autonomous.
 	 */
